@@ -1,0 +1,60 @@
+:root {
+    --body-text: rgb(20, 18, 18);
+    --primary-color: rgb(141, 17, 17);
+    --secondary-color: rgb(128, 12, 12);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:Cambria, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: var(--body-text);
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+header {
+    padding: 2rem 1.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0rem 1.5rem;
+}
+
+.recipe-info img {
+    height: 400px;
+}
+
+.recipe-card {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10;
+    padding: 0rem 1.5rem;
+}
+
+.recipe-card .recipe-card--ingre{
+    flex: 2;
+}
+
+.recipe-card--instructions {
+    flex: 5;
+}
+
+.nutitional-fact {
+    border: 1px solid var(--primary-color);
+    padding: 1rem 0.5rem;
+}
